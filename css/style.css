@@ -8,6 +8,16 @@
     text-decoration: none;
     font-family: "poppins", sans-serif;
 }
-body {
 
+:root{
+    --main-color: #033a80;
+    --bg-color: #fff;
+    --text-color:#0f0c27;
+    --hover: hsl(260, 100%, 51%);
+}
+
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
 }
