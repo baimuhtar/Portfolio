@@ -74,7 +74,7 @@ console.log(handshakes(15));
 --------------------
 ## __Experience__
 
-Restaurant-Page    | [code](https://github.com/baimuhtar/Restaurant-Page)
+Restaurant-Page  | [code](https://github.com/baimuhtar/Restaurant-Page)
 --------------------
 ## __Education__ 
 
