@@ -7,6 +7,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 :root{
     --main-color: #033a80;
@@ -233,17 +234,23 @@ margin: 1rem 0 1.4rem;
     border-radius: 0.5rem;
 }
 
-.html-bar{
-    width: 94%;
-}
-.css-bar {
-    width: 84%;
-}
 .java-bar{
-    width: 74%;
+    width: 90%;
 }
+
+.css-bar {
+    width: 80%;
+}
+.html-bar{
+    width: 95%;
+}
+
 .sql-bar{
-    width: 84%;
+    width: 85%;
+}
+
+.git-bar{
+    width: 90%;
 }
 
 /* ============== Services Section =============== */
