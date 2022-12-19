@@ -5,23 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
 
-    <link rel="shirtcut icon" href="img/profile.jpg" type="image/x-icon">
+    <link rel="shirtcut icon" href="./img/profile.jpg" type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
-
 </head>
 <body>
-
     <!-- ====================== Navigation Bar ==========================-->
+
     <header>
         <!-- Logo-->
-        <a href="" class="logo">baimuhtar</a>
-
+        <a href="#home" class="logo">baimuhtar</a>
         <!-- button for responsive device-->
         <div class="bx bx-menu" id="menu-icon"></div>
-
         <!-- menu items-->
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
@@ -29,12 +26,10 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-
         <!-- darkmode button -->
-        <div class="bx bx-moon" id="darkmode"></div>
+        <span class="bx bx-moon" id="darkmode"></span>
         </ul>
     </header>
-
     <!--======================= Home section ============================-->
     <section class="home" id="home">
     <div class="social">
@@ -45,7 +40,7 @@
 
     <!--home image-->
     <div class="home-img">
-        <img src="/img/profile.jpg" alt="">
+        <img src="./img/profile.jpg" alt="">
     </div>
 
     <!--home content-->
@@ -53,14 +48,15 @@
         <span>Hello, I'm </span>
         <h1> Baitanatov Mukhtar </h1>
         <h2> Backend Developer</h2>
-        <p>I currently work for Documentolog.</p>
+        <p>I currently work for Documentolog</p>
 
         <!--contact button-->
-        <a href="tel: +7(776)516-88-00?call" class="btn">Contact Me</a>
+        <a href="#contact" class="btn">Contact Me</a>
     </div>
 
     </section>
 
+    <main>
     <!--=========================About Section========================-->
     <section class="about" id="about">
         <!--heading-->
@@ -73,7 +69,7 @@
         <div class="about-container">
         <!--image-->
         <div class="about-img">
-            <img src="/img/profile2.jpeg" alt="">
+            <img src="./img/profile2.jpeg" alt="">
         </div>
         <!--text-->
         <div class="about-text">
@@ -83,27 +79,26 @@
                 <!--box-1-->
                 <div class="info-box">
                     <i class="bx bxs-user"></i>
-                    <span>Baitanatov Mukhtar</span>
+                    <span class="span-info">Baitanatov Mukhtar</span>
                 </div>
                 <!--box-2-->
                 <div class="info-box">
                     <i class="bx bxs-phone"></i>
-                    <span>+7(776)-516-88-00</span>
+                    <span class="span-info">+7(776)-516-88-00</span>
                 </div>
                 <!--box-3-->
                 <div class="info-box">
                     <i class="bx bxs-envelope"></i>
-                    <span>baimuhtar1997@gmail.com</span>
+                    <span class="span-info">baimuhtar1997@gmail.com</span>
                 </div>
-
             </div>
             <!--btn-->
-            <a href="/cv/cv.pdf" class="btn">Download CV</a>
+            <a href="./cv/cv.pdf" class="btn">Download CV</a>
             </div>
         </div>
     </section>
-
     <!--================= Skills section===================-->
+
 <section class="skills" id="skills">
     <div class="heading">
         <h2>Skills</h2>
@@ -148,14 +143,29 @@
             <div class="light-bar"></div>
             <div class="percent-bar git-bar"></div>
         </div>
-
+            <!--Box-6-->
+         <div class="bars-box">
+            <h3>Spring</h3>
+            <span>30%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar spring-bar"></div>
+        </div>
+            <!--Box-7-->
+        <div class="bars-box">
+            <h3>Linux</h3>
+            <span>40%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar linux-bar"></div>
+        </div>
     </div>
 
     <!--image-->
-    <div class="skills">
-        <img src="/img/123.png" alt="">
-    </div>
-  </div>
+    <div class="skills-img">
+        <img src="./img/skill1.jpg" alt="">
+        <img src="./img/skill2.jpg" alt="">
+     </div>
+   </div>
+</div>
 
 </section>   
 
@@ -163,32 +173,33 @@
 <section class="portfolio" id="portfolio">
     <div class="heading">
         <h2>Portfolio</h2>
-        <span>My Recent Work</span>
+        <span>Our Recent Work</span>
     </div>
 
     <div class="portfolio-content">
         
         <div class="portfolio-img">
-            <img src="/img/blog-2.png" alt="">
+            <img src="./img/blog-2.png" alt="">
         </div>
         <div class="portfolio-img">
-            <img src="/img/blog-3.png" alt="">
+            <img src="./img/blog-3.png" alt="">
         </div>
         <div class="portfolio-img">
-            <img src="/img/blog-4.jpg" alt="">
+            <img src="./img/blog-4.jpg" alt="">
         </div>
         <div class="portfolio-img">
-            <img src="/img/blog-5.jpg" alt="">
+            <img src="./img/blog-5.jpg" alt="">
         </div>
         <div class="portfolio-img">
-            <img src="/img/blog-6.jpg" alt="">
+            <img src="./img/blog-6.jpg" alt="">
         </div>
         <div class="portfolio-img">
-            <img src="/img/blog-7.jpg" alt="">
+            <img src="./img/blog-7.jpg" alt="">
         </div>
     </div>
 
 </section>
+</main>
 
 <!-- ============ Contact from ================ -->
 <section class="contact" id="contact">
@@ -202,23 +213,27 @@
             <input type="text" placeholder = "Your Name">
             <input type="email" placeholder="You Email">
             <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-            <a href="mailto:baimuhtar1997@gmail.com"><input type="button" value="Send" class="contact-button"></a>
+           <input type="button" value="Send" class="contact-button">
         </form>
     </div>
 </section>
 
+
 <!--============= Fotter Section ======================-->
+<footer>
 <div class="footer">
     <div class="footer-social">
+        <nav>
         <a href="https://github.com/baimuhtar"><i class='bx bxl-github'></i></a>
         <a href="https://www.linkedin.com/in/mukhtar-baitanatov-a03978121/"><i class='bx bxl-linkedin'></i></a>
         <a href="https://www.facebook.com/mukhtar.baitanatov"><i class="bx bxl-facebook"></i></a>
         <a href="https://twitter.com/baimuhtar"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.instagram.com/baimuhtar/"><i class="bx bxl-instagram"></i></a>
         <a href="https://www.youtube.com/channel/UCaVGIRwy3C-i28FtNIn6KBQ"><i class="bx bxl-youtube"></i></a>
-        
+    </nav>
     </div>
 </div>
+</footer>
 
 <!-- copyright-->
 
@@ -227,7 +242,7 @@
     <p>Create By <a href="">baimuhtar</a> | All Right Reserved</p>
 </div>
 
-<script src="/js/script.js"></script>
+<script src="./js/script.js"></script>
 
 
 
