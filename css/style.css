@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
 }
 :root {
-    --main-color: #033a80;
+    --main-color: #2768d9; 
     --bg-color: #fff;
     --text-color:#0f0c27;
     --hover: hsl(260, 100%, 51%);
@@ -69,7 +69,7 @@ header {
     color: var(--text-color);
 }
 .logo:hover {
-color: var(--hover)
+color: #2768d9; 
 }
 .navbar {
     display: flex;
@@ -82,7 +82,7 @@ color: var(--hover)
     font-weight: 500;
 }
 .navbar a:hover {
-    color: var(--hover);
+    color: #2768d9; 
 }
 
 #menu-icon {
@@ -464,8 +464,7 @@ section {
         grid-template-columns: 1fr;
     }
     .about-img{
-        display: flex;
-        justify-content: center;
+        order: initial;
     }
     .skills-container{
         grid-template-columns: 1fr;
